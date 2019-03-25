@@ -113,7 +113,7 @@ const handleMonumentUpdate = () => {
   let editedMonument = {
     name: editedMonumentName.value,
     state: editedMonumentState.value,
-    area: editedMonumentArea.value,
+    area: parseInt(editedMonumentArea.value),
     dateEstablished: editedMonumentEst.value,
     visited: editedMonumentVisited.checked
   };
