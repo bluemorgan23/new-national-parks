@@ -22,7 +22,7 @@ const listMonuments = () => {
       let monumentHTML = buildMonumentHTML(monument);
       monumentsFragment.appendChild(monumentHTML);
     })
-    
+
     const monumentSection = document.querySelector("#national--monuments");
     clearElement(monumentSection);
     monumentSection.appendChild(monumentsFragment)

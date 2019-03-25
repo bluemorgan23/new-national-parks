@@ -1,6 +1,6 @@
 const buildElement = (elementType, elementId, elementTextContent, elementValue, eType, eName) => {
   let htmlElement = document.createElement(elementType);
-  
+
   if (elementId) {
     htmlElement.setAttribute("id", elementId);
   }
@@ -9,7 +9,7 @@ const buildElement = (elementType, elementId, elementTextContent, elementValue, 
     htmlElement.setAttribute("value", elementValue);
   }
   htmlElement.textContent = elementTextContent;
- 
+
 
   if (eType) {
     htmlElement.setAttribute("type", eType);
