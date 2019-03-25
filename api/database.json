@@ -1,12 +1,12 @@
 {
   "parks": [
     {
-      "id": 1,
-      "name": "Jackson Hole",
+      "name": "Jackson Holeeeee",
       "state": "WY",
-      "latitude": 43.582767,
-      "longitude": -110.821999,
-      "visited": true
+      "latitude": "43.582767",
+      "longitude": "-110.821999",
+      "visited": true,
+      "id": 1
     },
     {
       "id": 2,
@@ -115,12 +115,12 @@
       "visited": true
     },
     {
-      "id": 5,
       "name": "Harriet Tubman Underground Railroad",
       "state": "MD",
-      "area": 480,
+      "area": "480",
       "dateEstablished": "03-25-2013",
-      "visited": false
+      "visited": true,
+      "id": 5
     },
     {
       "id": 6,
@@ -155,12 +155,12 @@
       "visited": false
     },
     {
-      "id": 10,
       "name": "Navajo",
       "state": "AZ",
-      "area": 360,
+      "area": "360",
       "dateEstablished": "03-20-1909",
-      "visited": false
+      "visited": false,
+      "id": 10
     }
   ]
 }
