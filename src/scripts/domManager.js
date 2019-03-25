@@ -19,3 +19,5 @@ const clearElement = domElement => {
 
 const displayContainer = document.querySelector("#display-container");
 displayContainer.appendChild(buildElement("section", "national--parks"));
+
+//This is a test
